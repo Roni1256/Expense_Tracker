@@ -1,9 +1,10 @@
 import './App.css';
+import { Main } from './pages/Main';
 
 function App() {
-  return (
-    <h1 className='text-xl bg-black text-white'>Hello React!</h1>
-  );
+  return<>
+  <Main/>
+  </>
 }
 
 export default App;
